@@ -1,7 +1,64 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Workspace
    version = "1.0">
+   <Group
+      location = "group:common_ios_7.1.0"
+      name = "common_ios_7.1.0">
+      <Group
+         location = "group:normal"
+         name = "normal">
+         <Group
+            location = "group:UMCommon.framework"
+            name = "UMCommon.framework">
+            <FileRef
+               location = "group:UMCommon">
+            </FileRef>
+            <Group
+               location = "group:Versions"
+               name = "Versions">
+               <Group
+                  location = "group:A"
+                  name = "A">
+                  <FileRef
+                     location = "group:UMCommon">
+                  </FileRef>
+                  <Group
+                     location = "group:Headers"
+                     name = "Headers">
+                     <FileRef
+                        location = "group:UMConfigure.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:UMCommon.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:MobClick.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:UMRemoteConfig.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:UMRemoteConfigSettings.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:UMRemoteConfigEnum.h">
+                     </FileRef>
+                  </Group>
+               </Group>
+               <FileRef
+                  location = "group:Current">
+               </FileRef>
+            </Group>
+            <FileRef
+               location = "group:Headers">
+            </FileRef>
+            <FileRef
+               location = "group:7.1.0_842e0ab2ea_20200611125537">
+            </FileRef>
+         </Group>
+      </Group>
+   </Group>
    <FileRef
-      location = "self:40APNSTest.xcodeproj">
+      location = "self:">
    </FileRef>
 </Workspace>

@@ -7,6 +7,10 @@
 //
 
 #import "AppDelegate.h"
+#import <UMCommon/UMConfigure.h>
+#import <UMCommon/UMCommon.h>
+#import <UMPush/UMessage.h>
+#import <UMCommonLog/UMCommonLogHeaders.h>
 
 @interface AppDelegate ()
 
@@ -17,6 +21,8 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    //5f07d946978eea07a9fbc4fb
+    //[UMConfigure initWithAppkey:@“5d898ec9570df3adff00089a” channel:@"App Store"];
     return YES;
 }
 
