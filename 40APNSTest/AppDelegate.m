@@ -21,8 +21,11 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
-    //5f07d946978eea07a9fbc4fb
-    //[UMConfigure initWithAppkey:@“5d898ec9570df3adff00089a” channel:@"App Store"];
+    
+    //设置从友盟后端推送的key
+    
+    [UMConfigure initWithAppkey:@"5f07d946978eea07a9fbc4fb" channel:@"App Store"];
+
     return YES;
 }
 
