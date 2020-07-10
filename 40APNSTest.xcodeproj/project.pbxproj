@@ -57,13 +57,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3C8EEE5524B82A03008D2985 /* UTDID.framework in Frameworks */,
 				3C8EEE5324B82A03008D2985 /* UMCommonLog.framework in Frameworks */,
 				3C8EEE3F24B81A61008D2985 /* UserNotifications.framework in Frameworks */,
 				3C8EEE3D24B81A16008D2985 /* CoreTelephony.framework in Frameworks */,
 				3C8EEE5724B82A03008D2985 /* UMCommon.framework in Frameworks */,
 				3C8EEE3B24B819FC008D2985 /* libz.tbd in Frameworks */,
 				3C8EEE3924B819EA008D2985 /* libsqlite3.tbd in Frameworks */,
-				3C8EEE5524B82A03008D2985 /* UTDID.framework in Frameworks */,
 				3C8EEE5624B82A03008D2985 /* UMPush.framework in Frameworks */,
 				3C8EEE3724B819C4008D2985 /* SystemConfiguration.framework in Frameworks */,
 			);
@@ -420,6 +420,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = 40APNSTest/40APNSTest.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3TKZ8D9JWY;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -436,6 +437,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.fanxing-technology.www.-0APNSTest.yangfan";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -445,6 +447,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = 40APNSTest/40APNSTest.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3TKZ8D9JWY;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -461,6 +464,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.fanxing-technology.www.-0APNSTest.yangfan";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
